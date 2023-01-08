@@ -1,0 +1,20 @@
+{
+  "name": "trtl-migrate",
+  "version": "1.0.1",
+  "description": "migrate from betastar.js to trtl.",
+  "main": "src/tm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "trtl",
+    "turtle",
+    "blacket",
+    "betastar"
+  ],
+  "author": "death",
+  "license": "ISC",
+  "dependencies": {
+    "trtl-migrate": "^1.0.0"
+  }
+}

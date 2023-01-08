@@ -12,7 +12,7 @@
     "blacket",
     "betastar"
   ],
-  "author": "death",
+  "author": "Death",
   "license": "ISC",
   "dependencies": {
     "trtl-migrate": "^1.0.0"

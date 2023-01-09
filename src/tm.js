@@ -70,7 +70,9 @@ class trtlmigrate extends EventEmitter {
                         role: json.user.role,
                         badges: json.user.badges,
                         element: json.user.avatar.split('/')[3].split('.'), // betastarjs
-                        blook: json.user.avatar.split('/')[3].split('.'),
+                        avatar: json.user.avatar.split('/')[3].split('.'),
+                        elementUrl: json.user.avatar,
+                        avatarURL: json.user.avatar,
                         color: json.user.color,
                         atoms: aData.tokens, // betastarjs
                         tokens: aData.tokens,

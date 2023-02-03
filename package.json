@@ -1,26 +1,24 @@
 {
   "name": "trtl-migrate",
-  "version": "1.0.4",
-  "description": "migrate from betastar.js to trtl.",
+  "version": "1.1.0",
+  "description": "Easily migrate from betastar.js to trtl.",
   "main": "src/tm.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "keywords": [
     "trtl",
     "turtle",
     "blacket",
     "betastar"
   ],
-  "repository" : {
+  "repository": {
     "type": "git",
     "url": "github:VillainsRule4000/trtl-migrate"
   },
   "bugs": "https://github.com/VillainsRule4000/trtl-migrate/issues",
-  "author": "Death",
+  "author": "VillainsRule",
   "license": "ISC",
   "dependencies": {
-    "axios": "^1.2.2",
-    "events": "^3.0.0"
+    "axios": "^1.2.3",
+    "events": "^3.3.0"
   }
 }

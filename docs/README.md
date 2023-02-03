@@ -1,11 +1,9 @@
 # trtl-migrate docs
 
-You can find examples of this library [here](https://github.com/VillainsRule4000/trtl-migrate/).
+You can find examples of this library [here](https://github.com/VillainsRule4000/trtl-migrate/blob/main/examples).
 
-### Starting
+### Constructor
 ```js
-// You will have to start by running `npm i trtl-migrate`.
-
 const migrate = require('trtl-migrate');
 const client = new migrate('bot username', 'bot password');
 // if you're on replit, use an env variable for the password --> https://docs.replit.com/programming-ide/storing-sensitive-information-environment-variables
@@ -25,14 +23,14 @@ const migrate = require('trtl-migrate');
 const client = new migrate('bot username', 'bot password');
 
 client.sendMessage("Hello, world.");
-client.send("Hello, world."); // it will be slightly slower, but client.send() is also an option.
+client.send("Hello, world.");
 ```
 
 ## Events
 ### connected
 
 - Emitted when the client is connected!
-    - returns a [clientInfo Object](https://github.com/VillainsRule4000/trtl-migrate/blob/main/Docs.md#message)
+    - returns a [clientInfo Object](https://github.com/VillainsRule4000/trtl-migrate/blob/main/docs/README.md#message)
 
 ### sentMessage
 
@@ -42,17 +40,17 @@ client.send("Hello, world."); // it will be slightly slower, but client.send() i
 ### receivedMessage
 
 - Emitted when a message is recieved via `chat`
-    - Returns a [message Object](https://github.com/VillainsRule4000/trtl-migrate/blob/main/Docs.md#message)
+    - Returns a [message Object](https://github.com/VillainsRule4000/trtl-migrate/blob/main/docs/README.md#message)
 
 
 ### onMention
 
 - Emitted when a message recieved via `chat` includes a mention to the bot
-    - Returns a [message Object](https://github.com/VillainsRule4000/trtl-migrate/blob/main/Docs.md#clientInfo)
+    - Returns a [message Object](https://github.com/VillainsRule4000/trtl-migrate/blob/main/docs/README.md#clientInfo)
 
 ### error
 - Emitted when an error occurs.
-    - Returns a [error Object](https://github.com/VillainsRule4000/trtl-migrate/blob/main/Docs.md#error)
+    - Returns a [error Object](https://github.com/VillainsRule4000/trtl-migrate/blob/main/docs/README.md#error)
 
  ## Objects / Classes
  
@@ -81,7 +79,7 @@ client.send("Hello, world."); // it will be slightly slower, but client.send() i
   - content - String, content of the message.
   - mentioned - Boolean, if the bot was mentioned.
   - time - Integer, the time the message was sent.
-  - author - Object, the [user](https://github.com/VillainsRule4000/trtl-migrate/blob/main/Docs.md#user) who sent the message.
+  - author - Object, the [user](https://github.com/VillainsRule4000/trtl-migrate/blob/main/docs/README.md#user) who sent the message.
   - mentions - Array, the array of users mentioned.
 
  #### Methods
@@ -90,7 +88,7 @@ client.send("Hello, world."); // it will be slightly slower, but client.send() i
 
 ### clientInfo
  #### Attributes
-  - user - Object, includes the logged in accounts username (e.g. { username: 'robot', password: 'password' })
+  - user - Object, includes the logged in accounts username (e.g. { username: 'username', password: 'password' })
   - PHPSESSID - String, the phpsessid of the logged in account, (it is reccomened to keep using client.token for API requests)
   - token - String, the same as the PHPSESSID
 

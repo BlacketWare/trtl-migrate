@@ -30,7 +30,8 @@ pnpm add trtl-migrate
 ### More packages
 
 - [trtl](https://www.npmjs.com/package/blacket-trtl) for more features (`npm install blacket-trtl`)
-- [axios](https://github.com/discord/axios) for easy requests to Blacket (`npm install axios`)
+- [axios](https://www.npmjs.com/package/axios) for easy requests to Blacket (`npm install axios`)
+- [fs](https://www.npmjs.com/package/fs) for simple db management (`npm install fs`)
 
 ## Issues
 
@@ -40,7 +41,7 @@ Before creating an issue, please ensure that it hasn't already been reported/sug
 ## Help
 
 If you don't understand something in the documentation, you are experiencing problems, or you just need a gentle
-nudge in the right direction, refer to the [discussions](discussions).
+nudge in the right direction, refer to the [examples](examples).
 
-[documentation]: https://github.com/VillainsRule4000/trtl-migrate/blob/main/Docs.md
-[discussions]: https://github.com/VillainsRule4000/trtl-migrate/discussions
+[documentation]: https://github.com/VillainsRule4000/trtl-migrate/blob/main/docs/README.md
+[examples]: https://github.com/VillainsRule4000/trtl-migrate/blob/main/examples/

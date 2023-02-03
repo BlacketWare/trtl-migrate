@@ -46,16 +46,16 @@ class trtlmigrate extends EventEmitter {
             this.socket.send(JSON.stringify({
               type: event,
               data
-            }))
+            }));
           }
-        }
+        };
 
         this.socket.send(JSON.stringify({
           type: 'join',
           data: 'global'
         }));
         
-        await sleep(250)
+        await sleep(250);
 
         this.emit('connected', {
           user: {

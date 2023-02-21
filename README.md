@@ -1,5 +1,4 @@
 <div align="center">
-	<br />
 	<p>
 		<img src="https://raw.githubusercontent.com/VillainsRule4000/trtl-migrate/master/assets/tm.png" width="300" alt="trtl-migrate" /></a>
 	</p>
@@ -12,7 +11,7 @@
 
 ## About
 
-trtl-migrate is a [Node.js](https://nodejs.org) library that helps you turn your [betastar.js](https://www.npmjs.com/package/betastar.js) project into a [trtl](https://trtl.acaiberii.win) project.
+trtl-migrate is a [Node.js](https://nodejs.org) library that helps you turn your [betastar.js](https://www.npmjs.com/package/betastar.js) project into a [trtl](https://github.com/BlacketWare/trtl) project.
 
 - Object-oriented
 - Built off BetastarJS
@@ -29,7 +28,7 @@ pnpm add trtl-migrate
 
 ### More packages
 
-- [trtl](https://www.npmjs.com/package/blacket-trtl) for more features (`npm install blacket-trtl`)
+- [trtl](https://www.npmjs.com/package/trtl) for more features (`npm install trtl`)
 - [axios](https://www.npmjs.com/package/axios) for easy requests to Blacket (`npm install axios`)
 - [fs](https://www.npmjs.com/package/fs) for simple db management (`npm install fs`)
 

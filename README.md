@@ -1,7 +1,7 @@
 <div align="center">
 	<br />
 	<p>
-		<img src="https://raw.githubusercontent.com/intertransfer/trtl/main/assets/img/hi.png" width="300" alt="trtl-migrate" /></a>
+		<img src="https://raw.githubusercontent.com/VillainsRule4000/trtl-migrate/master/assets/tm.png" width="300" alt="trtl-migrate" /></a>
 	</p>
     <h1><b>trtl-migrate</b></h1>
 	<p>

@@ -1,6 +1,6 @@
 # trtl-migrate docs
 
-You can find examples of this library [here](https://github.com/VillainsRule4000/trtl-migrate/blob/main/examples).
+You can find examples of this library [here](https://github.com/VillainsRule/trtl-migrate/blob/main/examples).
 
 ### Constructor
 ```js
@@ -30,7 +30,7 @@ client.send("Hello, world.");
 ### connected
 
 - Emitted when the client is connected!
-    - returns a [clientInfo Object](https://github.com/VillainsRule4000/trtl-migrate/blob/main/docs/README.md#message)
+    - returns a [clientInfo Object](https://github.com/VillainsRule/trtl-migrate/blob/main/docs/README.md#message)
 
 ### sentMessage
 
@@ -40,17 +40,17 @@ client.send("Hello, world.");
 ### receivedMessage
 
 - Emitted when a message is recieved via `chat`
-    - Returns a [message Object](https://github.com/VillainsRule4000/trtl-migrate/blob/main/docs/README.md#message)
+    - Returns a [message Object](https://github.com/VillainsRule/trtl-migrate/blob/main/docs/README.md#message)
 
 
 ### onMention
 
 - Emitted when a message recieved via `chat` includes a mention to the bot
-    - Returns a [message Object](https://github.com/VillainsRule4000/trtl-migrate/blob/main/docs/README.md#clientInfo)
+    - Returns a [message Object](https://github.com/VillainsRule/trtl-migrate/blob/main/docs/README.md#clientInfo)
 
 ### error
 - Emitted when an error occurs.
-    - Returns a [error Object](https://github.com/VillainsRule4000/trtl-migrate/blob/main/docs/README.md#error)
+    - Returns a [error Object](https://github.com/VillainsRule/trtl-migrate/blob/main/docs/README.md#error)
 
  ## Objects / Classes
  
@@ -79,7 +79,7 @@ client.send("Hello, world.");
   - content - String, content of the message.
   - mentioned - Boolean, if the bot was mentioned.
   - time - Integer, the time the message was sent.
-  - author - Object, the [user](https://github.com/VillainsRule4000/trtl-migrate/blob/main/docs/README.md#user) who sent the message.
+  - author - Object, the [user](https://github.com/VillainsRule/trtl-migrate/blob/main/docs/README.md#user) who sent the message.
   - mentions - Array, the array of users mentioned.
 
  #### Methods

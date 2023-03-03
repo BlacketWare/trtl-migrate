@@ -1,6 +1,6 @@
 {
   "name": "trtl-migrate",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Easily migrate from betastar.js to trtl.",
   "main": "src/tm.js",
   "scripts": {},
@@ -12,9 +12,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "github:VillainsRule4000/trtl-migrate"
+    "url": "github:VillainsRule/trtl-migrate"
   },
-  "bugs": "https://github.com/VillainsRule4000/trtl-migrate/issues",
+  "bugs": "https://github.com/VillainsRule/trtl-migrate/issues",
   "author": "VillainsRule",
   "license": "ISC",
   "dependencies": {

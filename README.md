@@ -1,6 +1,6 @@
 <div align="center">
 	<p>
-		<img src="https://raw.githubusercontent.com/VillainsRule4000/trtl-migrate/master/assets/tm.png" width="300" alt="trtl-migrate" /></a>
+		<img src="https://raw.githubusercontent.com/VillainsRule/trtl-migrate/master/assets/tm.png" width="300" alt="trtl-migrate" /></a>
 	</p>
     <h1><b>trtl-migrate</b></h1>
 	<p>
@@ -42,5 +42,5 @@ Before creating an issue, please ensure that it hasn't already been reported/sug
 If you don't understand something in the documentation, you are experiencing problems, or you just need a gentle
 nudge in the right direction, refer to the [examples](examples).
 
-[documentation]: https://github.com/VillainsRule4000/trtl-migrate/blob/main/docs/README.md
-[examples]: https://github.com/VillainsRule4000/trtl-migrate/blob/main/examples/
+[documentation]: https://github.com/VillainsRule/trtl-migrate/blob/main/docs/README.md
+[examples]: https://github.com/VillainsRule/trtl-migrate/blob/main/examples/

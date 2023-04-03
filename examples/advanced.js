@@ -1,3 +1,5 @@
+// good devs will say this is far from advanced, but it is just an example.
+
 const migrate = require('trtl-migrate');
 const client = new migrate('username', 'password');
 
@@ -16,6 +18,6 @@ client.on('onMention', (data) => {
   client.send(`Hi ${data.author.name}, I'm ${this.username}. My prefix is ? (a question mark).`)
 })
 
-client.on('error', (type, data) => {
-  console.log(`Uh, oh! Error in ${type}: ${data}`);
+client.on('error', (err) => {
+  console.error(`Uh, oh! Error: ${err.data}`);
 })

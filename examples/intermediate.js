@@ -1,5 +1,4 @@
 const migrate = require('trtl-migrate');
-const blacket = require('blacket');
 const client = new migrate('username', 'password');
 
 client.on('connected', (data) => {
@@ -10,6 +9,6 @@ client.on('receivedMessage', (data) => {
   if (data.message === '?hi') client.send(`Hi, ${data.author.name}!`);
 })
 
-client.on('error', (type, data) => {
-  blacket.chalk('red', `Uh, oh! Error in ${type}: ${data}`);
+client.on('error', (err) => {
+  console.error(`Uh, oh! Error: ${err.data}`);
 })

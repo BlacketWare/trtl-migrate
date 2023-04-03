@@ -13,7 +13,6 @@
 
 trtl-migrate is a [Node.js](https://nodejs.org) library that helps you turn your [betastar.js](https://www.npmjs.com/package/betastar.js) project into a [trtl](https://github.com/BlacketWare/trtl) project.
 
-- Object-oriented
 - Built off BetastarJS
 - Simple
 - Good documentation

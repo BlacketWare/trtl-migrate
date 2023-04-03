@@ -24,6 +24,8 @@ const client = new migrate('bot username', 'bot password');
 
 client.sendMessage("Hello, world.");
 client.send("Hello, world.");
+
+// send and sendMessage do the same thing, though send is easier to type :)
 ```
 
 ## Events
@@ -98,8 +100,7 @@ client.send("Hello, world.");
 
 ### error
  #### Attributes
-  - type - String, at this time may be named either `internal` or `chat`.
-  - error - String, the exact error.
+  - data - String, the exact error.
 
  #### Methods
   - None.
